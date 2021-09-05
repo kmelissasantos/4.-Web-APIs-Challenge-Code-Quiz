@@ -19,12 +19,10 @@ THEN I can save my initials and score
 ## Built With
 HTML 
 CSS
-Bootstrap
 Javascript
 
 ## Screenshot of Deployed Site
 <img width="1242" alt="Screen Shot 2021-09-05 at 7 24 41 PM" src="https://user-images.githubusercontent.com/79613288/132144208-6545f3fa-dc33-429d-9075-5d8e17b7be25.png">
-
 
 ## Depolyed Link
 https://kmelissasantos.github.io/4.-Web-APIs-Challenge-Code-Quiz/

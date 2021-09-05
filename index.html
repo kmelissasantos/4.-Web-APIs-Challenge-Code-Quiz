@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="topSection">
+        <div class="topSectionChild">
+            <button id="highscore">View Highscore</button>
+        </div>
+        <div class="topSectionChild">
+            <p id="timer">Time:</p>
+        </div>
+    </div>
+    <div class="quizStart">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Try to answer the following code-related questions with the time limit. Keep in mind that incorrect answers
+            will penalize your score/time by ten seconds!</p>
+        <button id="startBtn">Start Quiz</button>
+    </div>
+    <div class="quizContainer">
+        <div id="questionContainer" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="answer-square">
+                <button class="btn-text" data-number="1">Answer 1</button>
+                <button class="btn-text" data-number="2">Answer 2</button>
+                <button class="btn-text" data-number="3">Answer 3</button>
+                <button class="btn-text" data-number="4">Answer 4</button>
+            </div>
+        </div>
+    </div>
+    <div id="quizEnd" class="hide">
+        <h2 id="quizEndHeading"></h2>
+        <p id="quizEndScore"></p>
+        <form id="formContainer" class="hide">
+            <label id="labelName" for="initials">Enter Initials:</label>
+            <input type="text" id="initialName" name="initials">
+            <input type="submit" id="subBtn" value="submit">
+        </form>
+    </div>
+    <div id="highscoreSection" class="hide">
+        <h2 id="highscoresHeading">Highscores</h2>
+        <div class="highscoreTitlesContainer">
+            <h3 class="highscoreTitles">Name</h3>
+            <h3 class="highscoreTitles">score</h3>
+        </div>
+        <div class="highscoreList">
+        </div>
+        <div class="highscoreBtnContainer">
+            <button id="highscoreReset">Go Back</button>
+            <button id="highscoreClear">Clear Highscores</button>
+        </div>
+    </div>
+    <script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
